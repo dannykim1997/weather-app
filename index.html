@@ -8,6 +8,24 @@
     <script src="app.js" defer></script>
 </head>
 <body>
-    <h1>Where-Ever-Weather</h1>
+    <div class="header">
+        <h1>Where-Ever-Weather</h1>
+    </div>
+    <div class="search-form">
+        <form id="city-form">
+            <input type="text" id="city-input" placeholder="Enter a city">
+            <button type="submit" class="submit">Search</button>
+        </form>
+    </div>
+    <div class="content">
+        <div class="location"></div>
+        <div class="temp"></div>
+        <div class="info">
+            <div class="condition-image"><img src="" alt="condition"></div>
+            <div class="condition"></div>
+            <div class="humidity"></div>
+            <div class="wind"></div>
+        </div>
+    </div>
 </body>
 </html>

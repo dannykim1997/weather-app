@@ -1,3 +1,84 @@
 body {
-    background-color: lightblue ;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.search-form {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#city-form {
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#city-input {
+    border: none;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.submit {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #555;
+}
+
+.content {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.location {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.temp {
+    font-size: 2em;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.condition-image img {
+    max-width: 100px;
+    height: auto;
+}
+
+.condition,
+.humidity,
+.wind {
+    font-size: 1.2em;
+    margin-top: 10px;
 }
